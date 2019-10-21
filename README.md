@@ -10,4 +10,4 @@ Now we put a point inside the cube, that point can only move in planes orthogona
 
 If the particle collides with the cylinder, then the particle will change his direction following a specular-like reflexion.
 
-An extended explanation about the algorithm used can be found in the author thesis named ["Movimiento circular en ambientes cuasi-periódicos: magnetorresistencia en cuasicristales"](132.248.9.195/ptd2018/mayo/0774316/Index.html)
+An extended explanation about the algorithm used can be found in the author thesis named ["Movimiento circular en ambientes cuasi-periódicos: magnetorresistencia en cuasicristales"](http://oreon.dgbiblio.unam.mx/F/JA719DL9AX5IAJIN99N6FJLDSVNI8IQU6FYCSM4VV12VL8C94X-41442?func=find-b&request=Alan+Rodrigo+Mendoza+Sosa&find_code=WAT&adjacent=N&local_base=TES01&x=46&y=11&filter_code_2=WYR&filter_request_2=&filter_code_3=WYR&filter_request_3=)

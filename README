@@ -1,4 +1,4 @@
-# Quasiperiodic Lattice
+#Quasiperiodic Lattice
 
 The main objective of the code is to study the diffusion of an electron in a two-dimensional plate doped with quantum antidots in the presence of an external magnetic field. The centers of the quantum antidots correspond to the positions of a quasiperiodic lattice.
 

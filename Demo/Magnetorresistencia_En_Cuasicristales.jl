@@ -464,9 +464,9 @@ function colision_Cilindro(Posicion_Inicial, Velocidad_Inicial, EjeCil, Centro_C
 
 	θ_Pos_Col_Cen_Cil = atan(Posicion_Colision_Centrada_Cilindro[2], Posicion_Colision_Centrada_Cilindro[1]);
 	θ_Velocidad = atan(Velocidad_Colision[2], Velocidad_Colision[1]);
-#    θ_Velocidad = θ_Pos_Col_Cen_Cil - θ_Velocidad
-#	θ_Velocidad = mod(θ_Pos_Col_Cen_Cil - θ_Velocidad + π/2, π) - π/2;
-#	θ_Pos_Col_Cen_Cil = mod(θ_Pos_Col_Cen_Cil, π);
+    #θ_Velocidad = θ_Pos_Col_Cen_Cil - θ_Velocidad
+	#θ_Velocidad = mod(θ_Pos_Col_Cen_Cil - θ_Velocidad + π/2, π) - π/2;
+	#θ_Pos_Col_Cen_Cil = mod(θ_Pos_Col_Cen_Cil, π);
 
 	Posicion_Colision_3D = push!(Posicion_Colision, Posicion_Cilindro_Vertical[3]);
 	Velocidad_Colision_3D = push!(Velocidad_Colision, Velocidad_Cilindro_Vertical[3]);
@@ -657,7 +657,7 @@ function lorentz_Cuasi_Magnetico2(Posicion_Inicial, Velocidad_Inicial, EjeCil, L
 		Θv = [];
         H = [];
 		Contador = 0;
-#		Tim = 0;
+		#Tim = 0;
         
 
 		while Tiempo_Vuelo > Tipo(0)
@@ -700,7 +700,7 @@ function lorentz_Cuasi_Magnetico2(Posicion_Inicial, Velocidad_Inicial, EjeCil, L
 			else
 				Posicion_Inicial, Velocidad_Inicial = avanza(Posicion_Inicial, Velocidad_Inicial, EjeCil, Radio_Particula, δ2)#
 				Tiempo_Vuelo -= δ2;
-#				Tim += 0.1;
+				#Tim += 0.1;
 			end
 		end
 		return Posicion_Inicial, Velocidad_Inicial, N_Total, Θc, Θv, H, Centros
